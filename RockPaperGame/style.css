@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    box-shadow: 2px 2px 5px 2px rgba(223, 83, 28,0.5);
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    box-shadow: 2px 2px 5px 2px rgb(223, 83, 28);
+    background-color: orange;
+}
+button:hover{
+    background-color: rgb(255, 72, 0);
+    box-shadow: 1px 1px 2px 1px rgb(223, 83, 28);
+}
+button:active{
+    background-color: rgb(223, 83, 28);
+    box-shadow: 1px 1px 2px 1px rgb(223, 83, 28);
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 18px;
+}
